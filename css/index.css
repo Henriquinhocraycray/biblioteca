@@ -1,7 +1,72 @@
 .body{
     background-color: rgb(183, 164, 138);
 }
-.img-carousel {
+/* Estilos gerais do footer */
+.footer {
+    background-color: #0e1a64;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    width: 150px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .footer-links li {
+    margin-right: 20px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #ffcc00;
+  }
+  
+  .footer-social .social-icon {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social .social-icon:hover {
+    color: #ffcc00;
+  }
+  
+  /* Estilos do rodapé inferior */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #000000;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+  }
+
+/*Carousel Imagens*/
+  .img-carousel {
     max-width: 50%;
     height: auto;
     display: block;
