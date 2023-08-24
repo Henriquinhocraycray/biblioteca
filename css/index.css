@@ -69,3 +69,51 @@
     display: block;
     margin: 0 auto;
 }
+
+.carousel-image {
+  object-position: center bottom; /* Ajusta a posição da imagem verticalmente */
+  max-height: 700em; /* Define uma altura máxima para a imagem */
+}
+
+#carouselExample {
+  max-width: 800px; /* Defina a largura máxima do carrossel */
+  margin: 0 auto; /* Centralize o carrossel na página */
+}
+
+/* Estilos para controlar o tamanho do vídeo incorporado */
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%; /* Proporção 16:9 */
+}
+
+/* Estilos para controlar o tamanho das imagens */
+.carousel-image {
+  max-width: 100%; /* Defina a largura máxima para a imagem */
+  height: auto; /* Mantenha a proporção da imagem */
+}
+
+.embed-responsive-16by9 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item{
+  height: 30em;
+}
+
+.blue-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 33.5em;
+  background-color: #007bff; /* Cor azul */
+  opacity: 0.5; /* Opacidade para tornar a faixa menos intensa */
+  z-index: -1; /* Coloque a faixa atrás do carrossel */
+}
+
+.card{
+  margin-top: 30%;
+}
