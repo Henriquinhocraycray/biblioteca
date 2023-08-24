@@ -1,5 +1,6 @@
 footer {
-    position: calc();
+    align-items: center;
+    position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
