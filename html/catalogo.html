@@ -41,9 +41,11 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- Bootstrap -->
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="">Biblioteca SENAI</a>
+          <a class="navbar-brand" href="index.html">Biblioteca SENAI</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -62,13 +64,15 @@
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="contato.html">Termos de Uso</a></li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-            </div>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
         </div>
-    </nav>
+      </nav>
 <!---------------------------------------------------------------------------------------------------------------->
     <div class="container mt-4">
         <div class="row">
@@ -78,7 +82,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Terror</h5>
                         <p class="card-text">Aqui temos um grande catálogo de histórias de terror que te arrepiarão até os calos.</p>
-                        <a href="#" class="btn btn-primary">Ver!</a>
+                        <a href="terror.html" class="btn btn-primary">Ver!</a>
                     </div>
                 </div>
             </div>
@@ -114,5 +118,35 @@
             </div>
         </div>
     </div>
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="../img/senailogo2.png" alt="Logo">
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="contato.html">Termos de Uso</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <a class="social-icon" href="#"><i class="fa fa-facebook"></i></a>
+            <a class="social-icon" href="#"><i class="fa fa-twitter"></i></a>
+            <a class="social-icon" href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Biblioteca Escola Senai A. Jacob Lafer <br>
+            horário de atendimento: <br>
+            segunda e quinta: <br> 
+            10h ás 13:30 <br>
+            14:30 ás 19h <br>
+            terça, quarta e sexta: <br>
+            8:30 ás 13:30 <br>
+            14:30 ás 17:30</p>
+    </div>
+</footer>
 </body>
 </html>
