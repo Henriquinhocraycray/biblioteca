@@ -5,3 +5,7 @@ footer {
     width: 100%;
     text-align: center;
   }
+
+  td {
+    align-items: center;
+  }
