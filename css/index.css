@@ -109,8 +109,8 @@
   left: 0;
   width: 100%;
   height: 33.5em;
-  background-color: #007bff; /* Cor azul */
-  opacity: 0.5; /* Opacidade para tornar a faixa menos intensa */
+  background-color: #0e1a64; /* Cor azul */
+  opacity: 1; /* Opacidade para tornar a faixa menos intensa */
   z-index: -1; /* Coloque a faixa atrás do carrossel */
 }
 
