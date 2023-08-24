@@ -1,3 +1,9 @@
 .body{
     background-color: rgb(183, 164, 138);
 }
+.img-carousel {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
